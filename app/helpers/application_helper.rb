@@ -1,5 +1,22 @@
 module ApplicationHelper
-
+# Converts the object into textual markup given a specific `format`
+# (defaults to `:html`)
+#
+# == Parameters:
+# total_pages::
+#   A Symbol declaring the format to convert the object to. This
+#   can be `:text` or `:html`.
+## url::
+#   A Symbol declaring the format to convert the object to. This
+#   can be `:text` or `:html`.
+## container::
+#   A Symbol declaring the format to convert the object to. This
+#   can be `:text` or `:html`.
+#
+# == Returns:
+# A string representing the object in a specified
+# format.
+#
   def pageless(total_pages, url=nil, container=nil)
     opts = {
         :totalPages  => total_pages,

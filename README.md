@@ -4,6 +4,9 @@ vsns
 : Dev.Study - Official VSNS Repository since 2013.9.1
 
 #### 2013년 9월 11일 => 아장아장 유닛 작업내용
+* http://yardoc.org/ 을 이용한 문서화 시도
+
+#### 2013년 9월 11일 => 아장아장 유닛 작업내용
 
 * 이준헌님의 도움으로 pageless 기능 문제점 해결함
 
